@@ -422,6 +422,7 @@
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>2.7</version>
                         <configuration>
+                            <failOnViolation>true</failOnViolation>
 							<quiet>true</quiet>
                             <formats>
                                 <format>html</format>
