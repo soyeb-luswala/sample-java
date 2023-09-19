@@ -417,20 +417,11 @@
             </build>
             <reporting>
                 <plugins>
-					 <plugin>
-                       <groupId>org.codehaus.mojo</groupId>
-                        <artifactId>javancss-maven-plugin</artifactId>
-                        <version>2.1</version>
-				        <configuration>
-          					<failOnViolation>true</failOnViolation>
-				        </configuration>
-      				</plugin>	
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>2.7</version>
                         <configuration>
-							<quiet>true</quiet>
                             <formats>
                                 <format>html</format>
                                 <format>xml</format>
