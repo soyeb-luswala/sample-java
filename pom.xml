@@ -418,9 +418,9 @@
             <reporting>
                 <plugins>
 					 <plugin>
-						<groupId>org.codehaus.javancss</groupId>
-    					<artifactId>javancss</artifactId>
-    					<version>33.54</version>
+                       <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>javancss-maven-plugin</artifactId>
+                        <version>2.1</version>
 				        <configuration>
           					<failOnViolation>true</failOnViolation>
 				        </configuration>
